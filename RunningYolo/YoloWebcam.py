@@ -4,10 +4,10 @@ import cvzone
 import math
 import time
  
-# cap = cv2.VideoCapture(0)  # For Webcam
-# cap.set(3, 1280)
-# cap.set(4, 720)
-cap = cv2.VideoCapture("C:/Users/Arthur/Documents/FaceDetection/FacialDetection/Videos/2.mp4")  # For Video
+cap = cv2.VideoCapture(0)  # For Webcam
+cap.set(3, 1280)
+cap.set(4, 720)
+# cap = cv2.VideoCapture("C:/Users/Arthur/Documents/FaceDetection/FacialDetection/Videos/2.mp4")  # For Video
  
  
 model = YOLO("../Yolo-Weights/yolov8l.pt")
